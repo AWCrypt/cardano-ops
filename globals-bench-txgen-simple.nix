@@ -110,7 +110,7 @@ in reportDeployment (rec {
         ];
         minSeverity = "Debug";
         TracingVerbosity = "MaximalVerbosity";
-        TurnOnLogMetrics = false;
+        TurnOnLogMetrics = true;
       };
     }) (benchmarkingTopology.coreNodes or []);
   };

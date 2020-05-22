@@ -113,7 +113,7 @@ in {
       TraceTxOutbound                   = true;
       TraceTxSubmissionProtocol         = true;
 
-      TurnOnLogMetrics = false;
+      TurnOnLogMetrics = true;
     });
 
     signingKey = lib.mkForce "/var/lib/keys/cardano-node-signing-gen";
